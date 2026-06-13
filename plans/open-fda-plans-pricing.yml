@@ -1,0 +1,46 @@
+name: openFDA Plans and Pricing
+description: openFDA provides free public access to FDA regulatory data through its API platform. There is a single free tier with different rate limits depending on whether an API key is used.
+url: https://open.fda.gov/apis/authentication/
+plans:
+  - name: Free (No API Key)
+    description: Open access without registration. Limited rate for unauthenticated requests per IP address.
+    price: 0
+    currency: USD
+    billing: none
+    rateLimit:
+      requests: 240
+      period: minute
+      daily: 1000
+    features:
+      - Access to all openFDA API endpoints
+      - Drug adverse event data (FAERS)
+      - Drug labeling data (SPL)
+      - Drug recall enforcement reports
+      - Medical device 510(k) clearances
+      - Medical device adverse event reports
+      - Medical device recalls and classifications
+      - Food recall enforcement reports
+      - Food adverse event reports (CAERS)
+      - Tobacco problem reports and research datasets
+      - Historical FDA documents
+      - Substance and UNII data
+      - JSON responses
+      - Data downloads
+  - name: Free (With API Key)
+    description: Free API key registration unlocks significantly higher daily request limits. API keys are available at no cost by agreeing to the terms of service.
+    price: 0
+    currency: USD
+    billing: none
+    rateLimit:
+      requests: 240
+      period: minute
+      daily: 120000
+    features:
+      - All features of unauthenticated access
+      - 120x higher daily request limit
+      - Per-key rate limiting instead of per-IP
+      - Suitable for production applications
+      - Contact open@fda.hhs.gov for higher limits
+contact:
+  email: open@fda.hhs.gov
+  description: Contact for higher usage needs beyond standard API key limits

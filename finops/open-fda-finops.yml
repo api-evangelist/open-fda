@@ -1,0 +1,28 @@
+name: openFDA FinOps
+description: openFDA is a free, publicly funded FDA initiative. There are no costs associated with using the API. All endpoints and data are available at no charge as part of the FDA's open government data mandate.
+url: https://open.fda.gov/apis/authentication/
+model: Free Public API
+operator: U.S. Food and Drug Administration (FDA)
+office: Office of Health Informatics (OHI)
+costs:
+  - name: API Access
+    price: 0
+    currency: USD
+    description: All API calls are free regardless of volume within rate limit tiers
+  - name: Data Downloads
+    price: 0
+    currency: USD
+    description: Full dataset downloads are available at no cost
+  - name: API Key Registration
+    price: 0
+    currency: USD
+    description: API key registration is free; requires agreeing to terms of service
+considerations:
+  - No billing or payment required for any tier
+  - Government-operated service; costs covered by FDA operational budget
+  - Higher usage limits can be negotiated by contacting open@fda.hhs.gov at no cost
+  - No SLA or uptime guarantees for production use cases
+  - Data is provided as-is; not validated for clinical or production decision-making
+contact:
+  email: open@fda.hhs.gov
+  description: Contact for higher usage needs or partnership inquiries

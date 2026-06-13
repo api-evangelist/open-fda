@@ -1,0 +1,36 @@
+name: openFDA Rate Limits
+description: openFDA enforces rate limits to ensure fair access across all users. Limits differ between unauthenticated (no API key) and authenticated (with API key) requests.
+url: https://open.fda.gov/apis/authentication/
+tiers:
+  - name: Unauthenticated
+    description: Requests without an API key, throttled per IP address
+    limits:
+      - period: minute
+        requests: 240
+        scope: per IP address
+      - period: day
+        requests: 1000
+        scope: per IP address
+  - name: Authenticated
+    description: Requests with a valid API key, throttled per key
+    limits:
+      - period: minute
+        requests: 240
+        scope: per API key
+      - period: day
+        requests: 120000
+        scope: per API key
+authentication:
+  type: API Key
+  methods:
+    - name: Query Parameter
+      description: Pass the API key as a query parameter named api_key
+      example: "https://api.fda.gov/drug/event.json?api_key=yourAPIKeyHere&search=..."
+    - name: Basic Authentication Header
+      description: Pass the API key via HTTP Basic Authentication header
+  registration: Free, requires agreement to terms of service
+  contact: open@fda.hhs.gov
+notes:
+  - All queries must use HTTPS via https://api.fda.gov
+  - Higher usage limits available by contacting open@fda.hhs.gov
+  - Rate limits apply across all openFDA API endpoints collectively

@@ -1,0 +1,150 @@
+{
+  "source": "https://open.fda.gov/about/updates/",
+  "last_fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Tobacco Smokefree Research Dataset Available",
+      "date": "2026-03-11",
+      "url": "https://open.fda.gov/apis/tobacco/researchsmokefree/",
+      "description": "New tobacco smokefree research dataset released via the openFDA platform."
+    },
+    {
+      "title": "Tobacco Prevention Ads Research Dataset Available",
+      "date": "2026-02-17",
+      "url": "https://open.fda.gov/apis/tobacco/researchpreventionads/",
+      "description": "Tobacco prevention advertising research data released examining advertising influence on youth attitudes."
+    },
+    {
+      "title": "Tobacco Digital Ads Research Dataset Available",
+      "date": "2026-02-17",
+      "url": "https://open.fda.gov/apis/tobacco/researchdigitalads/",
+      "description": "Digital tobacco advertising research data released for public health research."
+    },
+    {
+      "title": "Cosmetic Adverse Events Dataset Available",
+      "date": "2025-09-13",
+      "url": "https://open.fda.gov/apis/cosmetic/event/",
+      "description": "Adverse event reporting data for cosmetics now available via openFDA."
+    },
+    {
+      "title": "Complete Response Letters Released",
+      "date": "2025-09-05",
+      "url": "https://open.fda.gov/apis/transparency/completeresponseletters/",
+      "description": "Complete Response Letters (CRLs) for NDAs and BLAs through 2025 now available via openFDA."
+    },
+    {
+      "title": "Drug Shortages Dataset Available",
+      "date": "2025-03-25",
+      "url": "https://open.fda.gov/apis/drug/drugshortages/",
+      "description": "Drug shortage information released to help patients, providers, and researchers track availability."
+    },
+    {
+      "title": "Historical Documents Dataset Available",
+      "date": "2024-03-20",
+      "url": "https://open.fda.gov/apis/other/historicaldocument/",
+      "description": "Historical FDA documents (press releases 1913-2014) now accessible via openFDA."
+    },
+    {
+      "title": "Wildcard Search Feature Enabled",
+      "date": "2024-02-23",
+      "url": "https://open.fda.gov/apis/wildcard-search/",
+      "description": "All openFDA API endpoints now support wildcard search functionality for more flexible querying."
+    },
+    {
+      "title": "UDI API Updated with GMDN Code",
+      "date": "2023-08-15",
+      "url": "https://open.fda.gov/apis/device/udi/",
+      "description": "Global Medical Device Nomenclature (GMDN) code integration added to the UDI API."
+    },
+    {
+      "title": "UNII Dataset Released",
+      "date": "2023-04-13",
+      "url": "https://open.fda.gov/apis/other/unii/",
+      "description": "Unique Ingredient Identifier (UNII) data now available via openFDA for chemical and substance lookups."
+    },
+    {
+      "title": "System Architecture Upgrade",
+      "date": "2020-10-13",
+      "url": "https://open.fda.gov/about/updates/2020_10_13_system_architecture_upgrade/",
+      "description": "Significant infrastructure improvements to support growing demand for openFDA API services."
+    },
+    {
+      "title": "Data Dictionary Now Available",
+      "date": "2020-10-10",
+      "url": "https://open.fda.gov/data/datadictionary/",
+      "description": "Comprehensive data documentation released to help users understand field definitions and data sources."
+    },
+    {
+      "title": "Tobacco Problem Reports Available",
+      "date": "2020-09-15",
+      "url": "https://open.fda.gov/apis/tobacco/problem/",
+      "description": "Tobacco incident reporting data now accessible via openFDA for safety surveillance research."
+    },
+    {
+      "title": "Drugs@FDA Available via openFDA",
+      "date": "2020-08-26",
+      "url": "https://open.fda.gov/apis/drug/drugsfda/",
+      "description": "Drugs@FDA approved drug information database now available through the openFDA API platform."
+    },
+    {
+      "title": "COVID-19 Serological Tests Evaluations",
+      "date": "2020-06-05",
+      "url": "https://open.fda.gov/about/updates/2020_06_04_COVID-19_Serological_Testing_Evaluations_Now_Available",
+      "description": "Independent evaluations of COVID-19 serological tests now available through openFDA."
+    },
+    {
+      "title": "200 Million API Calls Milestone",
+      "date": "2019-12-16",
+      "url": "https://open.fda.gov/about/statistics/",
+      "description": "openFDA reaches 200 million API calls milestone, demonstrating widespread use for public health research."
+    },
+    {
+      "title": "Substance Data Endpoint Available",
+      "date": "2019-12-10",
+      "url": "https://open.fda.gov/apis/other/substance/",
+      "description": "Chemical and molecular substance information data released via openFDA including UNII identifiers."
+    },
+    {
+      "title": "Animal Drug Adverse Events Dataset",
+      "date": "2019-04-03",
+      "url": "https://open.fda.gov/about/updates/2019_04_03_Animal_Drug_Adverse_Events_Now_Available",
+      "description": "First animal drug adverse event dataset made publicly available through openFDA."
+    },
+    {
+      "title": "NDC Directory Available",
+      "date": "2018-11-29",
+      "url": "https://open.fda.gov/apis/drug/ndc/",
+      "description": "National Drug Code (NDC) directory now accessible via openFDA for drug product identification."
+    },
+    {
+      "title": "Medical Device Data Released",
+      "date": "2015-08-31",
+      "url": "https://open.fda.gov/about/updates/2015_08_31_medical_device/",
+      "description": "Medical device information released to support innovation and research through openFDA."
+    },
+    {
+      "title": "Medical Device Reports Access",
+      "date": "2014-08-19",
+      "url": "https://open.fda.gov/about/updates/2014_08_19_providing_easy_access_to_medical_device_reports/",
+      "description": "Device adverse event reporting data made available via openFDA."
+    },
+    {
+      "title": "Drug Product Labeling Information",
+      "date": "2014-08-18",
+      "url": "https://open.fda.gov/about/updates/2014_08_18_drug_product_labeling/",
+      "description": "FDA-approved prescription drug labeling data now searchable via openFDA."
+    },
+    {
+      "title": "Recall Data Access",
+      "date": "2014-08-08",
+      "url": "https://open.fda.gov/about/updates/2014_08_08_openfda_provides_ready_access_to_recall_data/",
+      "description": "Food, drug, and device recall information from enforcement reports now available via openFDA."
+    },
+    {
+      "title": "openFDA Launch Announcement",
+      "date": "2014-06-02",
+      "url": "https://open.fda.gov/about/updates/2014_06_02_introducing_openfda/",
+      "description": "The openFDA public data initiative is launched, providing REST API access to FDA regulatory datasets."
+    }
+  ]
+}

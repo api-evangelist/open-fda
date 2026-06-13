@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "fda": "https://open.fda.gov/vocabulary/",
+    "openFDA": "https://open.fda.gov/",
+
+    "meta": "fda:meta",
+    "disclaimer": "fda:disclaimer",
+    "terms": "fda:terms",
+    "license": "fda:license",
+    "last_updated": {
+      "@id": "fda:last_updated",
+      "@type": "xsd:date"
+    },
+    "results": "fda:results",
+    "skip": "fda:skip",
+    "limit": "fda:limit",
+    "total": "fda:total",
+
+    "safetyreportid": "fda:safetyReportId",
+    "serious": "fda:serious",
+    "seriousnessdeath": "fda:seriousnessDeath",
+    "seriousnesslifethreatening": "fda:seriousnessLifeThreatening",
+    "seriousnesshospitalization": "fda:seriousnessHospitalization",
+    "seriousnessdisabling": "fda:seriousnessDisabling",
+    "transmissiondate": {
+      "@id": "fda:transmissionDate",
+      "@type": "xsd:date"
+    },
+    "receivedate": {
+      "@id": "fda:receiveDate",
+      "@type": "xsd:date"
+    },
+    "receiptdate": {
+      "@id": "fda:receiptDate",
+      "@type": "xsd:date"
+    },
+    "primarysource": "fda:primarySource",
+    "reportercountry": "fda:reporterCountry",
+    "qualification": "fda:qualification",
+    "sender": "fda:sender",
+    "senderorganization": "fda:senderOrganization",
+    "patient": "fda:patient",
+    "patientonsetage": "fda:patientOnsetAge",
+    "patientonsetageunit": "fda:patientOnsetAgeUnit",
+    "patientsex": "fda:patientSex",
+    "patientdeath": "fda:patientDeath",
+    "patientdeathdate": "fda:patientDeathDate",
+    "reaction": "fda:reaction",
+    "reactionmeddrapt": "fda:reactionMeddraPt",
+    "drug": "fda:drug",
+    "drugcharacterization": "fda:drugCharacterization",
+    "medicinalproduct": "fda:medicinalProduct",
+    "drugadministrationroute": "fda:drugAdministrationRoute",
+    "drugindication": "fda:drugIndication",
+    "activesubstance": "fda:activeSubstance",
+    "activesubstancename": "fda:activeSubstanceName",
+
+    "brand_name": "fda:brandName",
+    "generic_name": "fda:genericName",
+    "route": "fda:route",
+    "indications_and_usage": "fda:indicationsAndUsage",
+    "adverse_reactions": "fda:adverseReactions",
+    "warnings": "fda:warnings",
+    "contraindications": "fda:contraindications",
+    "dosage_and_administration": "fda:dosageAndAdministration",
+    "effective_time": {
+      "@id": "fda:effectiveTime",
+      "@type": "xsd:date"
+    },
+    "spl_id": "fda:splId",
+
+    "recall_number": "fda:recallNumber",
+    "status": "fda:recallStatus",
+    "classification": "fda:recallClassification",
+    "recalling_firm": "fda:recallingFirm",
+    "product_type": "fda:productType",
+    "product_description": "fda:productDescription",
+    "product_quantity": "fda:productQuantity",
+    "reason_for_recall": "fda:reasonForRecall",
+    "recall_initiation_date": {
+      "@id": "fda:recallInitiationDate",
+      "@type": "xsd:date"
+    },
+    "voluntary_mandated": "fda:voluntaryMandated",
+    "distribution_pattern": "fda:distributionPattern",
+    "report_date": {
+      "@id": "fda:reportDate",
+      "@type": "xsd:date"
+    },
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "country": "schema:addressCountry",
+    "postal_code": "schema:postalCode",
+
+    "event_type": "fda:deviceEventType",
+    "event_location": "fda:eventLocation",
+    "date_received": {
+      "@id": "fda:dateReceived",
+      "@type": "xsd:date"
+    },
+    "date_of_event": {
+      "@id": "fda:dateOfEvent",
+      "@type": "xsd:date"
+    },
+    "report_number": "fda:deviceReportNumber",
+    "product_problem_flag": "fda:productProblemFlag",
+    "type_of_report": "fda:typeOfReport",
+
+    "k_number": "fda:kNumber",
+    "applicant": "fda:applicant",
+    "device_name": "fda:deviceName",
+    "product_code": "fda:productCode",
+    "decision_date": {
+      "@id": "fda:decisionDate",
+      "@type": "xsd:date"
+    },
+    "decision_description": "fda:decisionDescription",
+    "device_class": "fda:deviceClass",
+
+    "unii": "fda:unii",
+    "name": "schema:name",
+    "molecular_formula": "fda:molecularFormula",
+    "molecular_weight": "fda:molecularWeight",
+
+    "openfda": {
+      "@id": "fda:openfdaHarmonization",
+      "@type": "@id"
+    }
+  },
+  "@type": "fda:OpenFDAAPIContext",
+  "schema:name": "openFDA API JSON-LD Context",
+  "schema:description": "JSON-LD context mapping openFDA API response fields to semantic identifiers for drug adverse events, drug labeling, recalls, medical devices, food safety, tobacco, and substance data.",
+  "schema:url": "https://open.fda.gov/apis/",
+  "schema:license": "https://open.fda.gov/license/",
+  "schema:provider": {
+    "@type": "schema:Organization",
+    "schema:name": "U.S. Food and Drug Administration",
+    "schema:url": "https://www.fda.gov/",
+    "schema:sameAs": "https://open.fda.gov/"
+  }
+}

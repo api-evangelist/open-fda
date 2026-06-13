@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service. Submission of an adverse event report does not constitute an admission that a product caused or contributed to an event. The information in these reports has not been scientifically or otherwise verified as to a cause and effect relationship and cannot be used to estimate incidence (occurrence rate) or to estimate risk.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-05-14",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 149945
+    }
+  },
+  "results": [
+    {
+      "report_number": "108592",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20081217",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "FAECES DISCOLOURED",
+        "HAEMATOCHEZIA"
+      ],
+      "date_started": "20081203",
+      "consumer": {
+        "age": "73.00",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PHILLIPS' COLON HEALTH (LACTOBACILLUS COMPOUND)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    }
+  ]
+}

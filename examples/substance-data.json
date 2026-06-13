@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2025-09-19",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 167385
+    }
+  },
+  "results": [
+    {
+      "codes": [
+        {
+          "uuid": "ec8f901c-2d5c-478a-94b8-872dae8ae038",
+          "code": "288254-16-0",
+          "type": "PRIMARY",
+          "url": "https://commonchemistry.cas.org/detail?cas_rn=288254-16-0",
+          "code_system": "CAS",
+          "references": [
+            "e65b4d0b-ef98-4869-b268-d1bd416d029a",
+            "69642f3b-863f-40c5-94e6-e12e37af47b8"
+          ]
+        },
+        {
+          "uuid": "61663075-e0a8-47e8-9f3d-958ba8504270",
+          "code": "10123230",
+          "type": "PRIMARY",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10123230",
+          "code_system": "PUBCHEM",
+          "references": [
+            "e65b4d0b-ef98-4869-b268-d1bd416d029a"
+          ]
+        },
+        {
+          "uuid": "6455d545-10f2-4b2a-abae-1d9774e86e56",
+          "code": "BU9H717REF",
+          "type": "PRIMARY",
+          "code_system": "FDA UNII"
+        },
+        {
+          "uuid": "d9c439dc-1938-52a9-0db2-e0b68166edfe",
+          "code": "DTXSID501021214",
+          "type": "PRIMARY",
+          "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID501021214",
+          "code_system": "EPA CompTox"
+        }
+      ],
+      "substance_class": "chemical",
+      "names": [
+        {
+          "uuid": "c84ffec4-b6bd-4a98-899b-551982c757b8",
+          "name": "(±)-ETHYLHEXYL BIS-ISOPENTYLBENZOXAZOLYLPHENYL MELAMINE",
+          "stdName": "(+/-)-ETHYLHEXYL BIS-ISOPENTYLBENZOXAZOLYLPHENYL MELAMINE",
+          "type": "cn",
+          "languages": [
+            "en"
+          ],
+          "preferred": false,
+          "references": [
+            "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c",
+            "615b0b2d-99d2-46e5-a565-bdc94e57ad5b"
+          ],
+          "display_name": false
+        },
+        {
+          "uuid": "623b728b-5903-4a95-b8a0-d25555dc811e",
+          "name": "1,3,5-TRIAZINE-2,4,6-TRIAMINE, N,N'-BIS(4-(5-(1,1-DIMETHYLPROPYL)-2-BENZOXAZOLYL)PHENYL)-N''-(2-ETHYLHEXYL)-",
+          "stdName": "1,3,5-TRIAZINE-2,4,6-TRIAMINE, N,N'-BIS(4-(5-(1,1-DIMETHYLPROPYL)-2-BENZOXAZOLYL)PHENYL)-N''-(2-ETHYLHEXYL)-",
+          "type": "cn",
+          "languages": [
+            "en"
+          ],
+          "preferred": false,
+          "references": [
+            "bd0386ed-e239-4157-aa1c-390548065d59",
+            "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c"
+          ],
+          "display_name": false
+        },
+        {
+          "uuid": "f922da55-91af-4c23-bd4b-3f82d88b24ad",
+          "name": "1,3,5-TRIAZINE-2,4,6-TRIAMINE, N2,N4-BIS(4-(5-(1,1-DIMETHYLPROPYL)-2-BENZOXAZOLYL)PHENYL)-N6-(2-ETHYLHEXYL)-",
+          "stdName": "1,3,5-TRIAZINE-2,4,6-TRIAMINE, N2,N4-BIS(4-(5-(1,1-DIMETHYLPROPYL)-2-BENZOXAZOLYL)PHENYL)-N6-(2-ETHYLHEXYL)-",
+          "type": "cn",
+          "languages": [
+            "en"
+          ],
+          "preferred": false,
+          "references": [
+            "bd0386ed-e239-4157-aa1c-390548065d59",
+            "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c"
+          ],
+          "display_name": false
+        },
+        {
+          "uuid": "5de8f5f0-7b33-4252-b5dd-8d2bc0bcb9d4",
+          "name": "2,4-BIS(5-(1-DIMETHYLPROPYL)BENZOXAZOL-2-YL(4-PHENYL)IMINO)-6-(2-ETHYLHEXYL)IMINO-1,3,5-TRIAZINE",
+          "stdName": "2,4-BIS(5-(1-DIMETHYLPROPYL)BENZOXAZOL-2-YL(4-PHENYL)IMINO)-6-(2-ETHYLHEXYL)IMINO-1,3,5-TRIAZINE",
+          "type": "cn",
+          "languages": [
+            "en"
+          ],
+          "preferred": false,
+          "references": [
+            "bd0386ed-e239-4157-aa1c-390548065d59",
+            "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c"
+          ],
+          "display_name": false
+        },
+        {
+          "uuid": "9dfcaf8f-3584-4431-8b6a-08032c75c18a",
+          "name": "ETHYLHEXYL BIS-ISOPENTYLBENZOXAZOLYLPHENYL MELAMINE",
+          "stdName": "ETHYLHEXYL BIS-ISOPENTYLBENZOXAZOLYLPHENYL MELAMINE",
+          "type": "of",
+          "languages": [
+            "en"
+          ],
+          "preferred": false,
+          "references": [
+            "3eb92df7-9626-4d02-a10f-1c26f8a0ef80",
+            "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c",
+            "97a61e52-ed32-4652-9824-0747e0054582"
+          ],
+          "display_name": true,
+          "domains": [
+            "cosmetic"
+          ],
+          "name_orgs": [
+            {
+              "uuid": "44727604-e81b-4fd1-8d3e-06dfdef5d46f",
+              "name_org": "INCI"
+            }
+          ]
+        },
+        {
+          "uuid": "65852eb2-599d-44d7-a0a7-468f6eace6f1",
+          "name": "ETHYLHEXYL BIS-ISOPENTYLBENZOXAZOLYLPHENYL MELAMINE, (±)-",
+          "stdName": "ETHYLHEXYL BIS-ISOPENTYLBENZOXAZOLYLPHENYL MELAMINE, (+/-)-",
+          "type": "cn",
+          "languages": [
+            "en"
+          ],
+          "preferred": false,
+          "references": [
+            "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c",
+            "615b0b2d-99d2-46e5-a565-bdc94e57ad5b"
+          ],
+          "display_name": false
+        },
+        {
+          "uuid": "ac01fc89-d4b8-45b9-8de0-59736ad798aa",
+          "name": "UVASORB K2A",
+          "stdName": "UVASORB K2A",
+          "type": "bn",
+          "languages": [
+            "en"
+          ],
+          "preferred": false,
+          "references": [
+            "3eb92df7-9626-4d02-a10f-1c26f8a0ef80",
+            "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c"
+          ],
+          "display_name": false
+        }
+      ],
+      "references": [
+        {
+          "uuid": "3eb92df7-9626-4d02-a10f-1c26f8a0ef80",
+          "citation": "PCPC-DB",
+          "doc_type": "SRS",
+          "public_domain": true,
+          "tags": [
+            "NOMEN",
+            "PUBLIC_DOMAIN_RELEASE",
+            "AUTO_SELECTED"
+          ]
+        },
+        {
+          "uuid": "9d0d79ce-8d0a-47f1-8dc8-88d2c7b14b6c",
+          "citation": "PERSONAL CARE PRODUCTS COUNCIL",
+          "doc_type": "PERSONAL CARE PRODUCTS COUNCIL",
+          "public_domain": true,
+          "tags": [
+            "NOMEN"
+          ]
+        },
+        {
+          "uuid": "bd0386ed-e239-4157-aa1c-390548065d59",
+          "citation": "STN",
+          "doc_type": "SRS",
+          "public_domain": true,
+          "tags": [
+            "NOMEN"
+          ]
+        },
+        {
+          "uuid": "615b0b2d-99d2-46e5-a565-bdc94e57ad5b",
+          "citation": "FDA_SRS",
+          "doc_type": "SRS",
+          "public_domain": true,
+          "tags": [
+            "NOMEN"
+          ]
+        },
+        {
+          "uuid": "e65b4d0b-ef98-4869-b268-d1bd416d029a",
+          "citation": "SRS CODE IMPORT",
+          "doc_type": "SRS",
+          "public_domain": true,
+          "document_date": 1493391502000,
+          "tags": [
+            "NOMEN"
+          ]
+        },
+        {
+          "uuid": "1a68b8de-ec2d-4858-a55b-b06a4a40d927",
+          "citation": "SRS import [BU9H717REF]",
+          "url": "http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=BU9H717REF",
+          "doc_type": "SRS",
+          "public_domain": true,
+          "document_date": 1493391502000,
+          "tags": [
+            "NOMEN"
+          ]
+        },
+        {
+          "uuid": "97a61e52-ed32-4652-9824-0747e0054582",
+          "citation": "ETHYLHEXYL BIS-ISOPENTYLBENZOXAZOLYLPHENYL MELAMINE [INCI]",
+          "doc_type": "SRS_LOCATOR",
+          "public_domain": true
+        },
+        {
+          "uuid": "69642f3b-863f-40c5-94e6-e12e37af47b8",
+          "citation": "STN",
+          "doc_type": "STN (SCIFINDER)",
+          "public_domain": true
+        }
+      ],
+      "definition_type": "PRIMARY",
+      "moieties": [
+        {
+          "uuid": "0408b324-b625-49c6-ae9a-3cbfd5fd716f",
+          "id": "0408b324-b625-49c6-ae9a-3cbfd5fd716f",
+          "molfile": "\n  Marvin  01132100312D          \n\n 57 63  0  0  0  0            999 V2000\n    5.5360   -0.5962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5360   -1.2622    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -1.5952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -2.2612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3825   -2.5942    0.0000 C   0  0  0  0  0  0  0  0  0  3  0  0\n    3.8057   -2.2612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8057   -1.5952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3825   -3.2602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -3.5932    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -4.2592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3531   -4.5352    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2893   -5.2003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6816   -5.4777    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6816   -6.2958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9694   -6.7070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9687   -7.5267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6807   -7.9380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3957   -7.5252    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3910   -6.7034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6807   -8.7602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0073   -9.2320    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2478  -10.0256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8260  -10.7365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2325  -11.4592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0651  -11.4683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4831  -10.7528    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0771  -10.0347    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3418   -9.2563    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8180  -12.1772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2325  -12.8953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9889  -12.1772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4034  -12.8953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8180  -13.6133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8358   -5.5895    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4415   -5.3087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5273   -5.6949    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5273   -6.5130    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8151   -6.9242    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8143   -7.7439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5263   -8.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2414   -7.7424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2366   -6.9207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5263   -8.9774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8530   -9.4492    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0934  -10.2428    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6717  -10.9538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0782  -11.6764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9108  -11.6855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.3288  -10.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9227  -10.2519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1874   -9.4735    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6636  -12.3945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8345  -12.3945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0782  -13.1125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2491  -13.1125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6636  -13.8306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5035   -4.6469    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0  0  0  0\n  3  2  1  0  0  0  0\n  4  3  1  0  0  0  0\n  5  4  1  0  0  0  0\n  5  6  1  0  0  0  0\n  8  5  1  0  0  0  0\n  6  7  1  0  0  0  0\n  9  8  1  0  0  0  0\n 10  9  1  0  0  0  0\n 10 11  1  0  0  0  0\n 57 10  2  0  0  0  0\n 11 12  2  0  0  0  0\n 13 12  1  0  0  0  0\n 12 34  1  0  0  0  0\n 14 13  1  0  0  0  0\n 14 15  1  0  0  0  0\n 19 14  2  0  0  0  0\n 15 16  2  0  0  0  0\n 16 17  1  0  0  0  0\n 17 18  2  0  0  0  0\n 20 17  1  0  0  0  0\n 18 19  1  0  0  0  0\n 20 21  2  0  0  0  0\n 28 20  1  0  0  0  0\n 22 21  1  0  0  0  0\n 22 23  1  0  0  0  0\n 27 22  2  0  0  0  0\n 23 24  2  0  0  0  0\n 24 25  1  0  0  0  0\n 24 29  1  0  0  0  0\n 25 26  2  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 29 30  1  0  0  0  0\n 29 31  1  0  0  0  0\n 29 32  1  0  0  0  0\n 32 33  1  0  0  0  0\n 34 35  2  0  0  0  0\n 35 36  1  0  0  0  0\n 35 57  1  0  0  0  0\n 37 36  1  0  0  0  0\n 37 38  1  0  0  0  0\n 42 37  2  0  0  0  0\n 38 39  2  0  0  0  0\n 39 40  1  0  0  0  0\n 40 41  2  0  0  0  0\n 43 40  1  0  0  0  0\n 41 42  1  0  0  0  0\n 43 44  2  0  0  0  0\n 51 43  1  0  0  0  0\n 45 44  1  0  0  0  0\n 45 46  1  0  0  0  0\n 50 45  2  0  0  0  0\n 46 47  2  0  0  0  0\n 47 48  1  0  0  0  0\n 47 52  1  0  0  0  0\n 48 49  2  0  0  0  0\n 49 50  1  0  0  0  0\n 50 51  1  0  0  0  0\n 52 53  1  0  0  0  0\n 52 54  1  0  0  0  0\n 52 55  1  0  0  0  0\n 55 56  1  0  0  0  0\nM  END",
+          "smiles": "CCCCC(CC)CNc1nc(Nc2ccc(cc2)-c3nc4cc(ccc4o3)C(C)(C)CC)nc(Nc5ccc(cc5)-c6nc7cc(ccc7o6)C(C)(C)CC)n1",
+          "formula": "C47H56N8O2",
+          "atropisomerism": "No",
+          "charge": 0,
+          "count": 1,
+          "stereochemistry": "RACEMIC",
+          "count_amount": {
+            "type": "MOL RATIO",
+            "average": 1,
+            "units": "MOL RATIO",
+            "uuid": "4bbda8ae-c34b-4952-8462-a99aa939c136"
+          },
+          "defined_stereo": 0,
+          "ez_centers": 0,
+          "molecular_weight": "765.0017",
+          "optical_activity": "( + / - )",
+          "stereo_centers": 1
+        }
+      ],
+      "definition_level": "COMPLETE",
+      "uuid": "d5cc5fb3-d212-48b2-87b1-0e243147bc75",
+      "version": "4",
+      "structure": {
+        "id": "53cc8f5f-d82d-427e-9e2a-6a434d632d70",
+        "molfile": "\n  Marvin  01132104222D          \n\n 57 63  0  0  0  0            999 V2000\n    3.2325  -11.4592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2478  -10.0256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8260  -10.7365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0771  -10.0347    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0651  -11.4683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4831  -10.7528    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6807   -8.7602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0073   -9.2320    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3418   -9.2563    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8180  -12.1772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2325  -12.8953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9889  -12.1772    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4034  -12.8953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8180  -13.6133    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6807   -7.9380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9694   -6.7070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9687   -7.5267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6816   -6.2958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3957   -7.5252    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3910   -6.7034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6816   -5.4777    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2893   -5.2003    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -4.2592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3531   -4.5352    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5035   -4.6469    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8358   -5.5895    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4415   -5.3087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8151   -6.9242    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8143   -7.7439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8345  -12.3945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6636  -13.8306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2491  -13.1125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0782  -13.1125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6636  -12.3945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8530   -9.4492    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0934  -10.2428    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6717  -10.9538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0782  -11.6764    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9108  -11.6855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.3288  -10.9700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9227  -10.2519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1874   -9.4735    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5263   -8.9774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5263   -8.1552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2414   -7.7424    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2366   -6.9207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5273   -6.5130    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5273   -5.6949    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -3.5932    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3825   -3.2602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3825   -2.5942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8057   -2.2612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8057   -1.5952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -2.2612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9593   -1.5952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5360   -1.2622    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5360   -0.5962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  6  4  1  0  0  0  0\n  5  6  2  0  0  0  0\n  2  3  1  0  0  0  0\n  1  5  1  0  0  0  0\n  4  2  2  0  0  0  0\n  3  1  2  0  0  0  0\n  9  7  1  0  0  0  0\n  7  8  2  0  0  0  0\n  2  8  1  0  0  0  0\n  4  9  1  0  0  0  0\n  1 10  1  0  0  0  0\n 10 11  1  0  0  0  0\n 10 12  1  0  0  0  0\n 10 13  1  0  0  0  0\n 13 14  1  0  0  0  0\n  7 15  1  0  0  0  0\n 20 18  1  0  0  0  0\n 19 20  2  0  0  0  0\n 16 17  1  0  0  0  0\n 18 16  2  0  0  0  0\n 17 15  2  0  0  0  0\n 15 19  1  0  0  0  0\n 18 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 27 25  1  0  0  0  0\n 26 27  2  0  0  0  0\n 23 24  1  0  0  0  0\n 25 23  2  0  0  0  0\n 24 22  2  0  0  0  0\n 22 26  1  0  0  0  0\n 47 28  2  0  0  0  0\n 28 29  1  0  0  0  0\n 29 44  2  0  0  0  0\n 34 30  1  0  0  0  0\n 32 31  1  0  0  0  0\n 34 32  1  0  0  0  0\n 34 33  1  0  0  0  0\n 38 34  1  0  0  0  0\n 43 35  2  0  0  0  0\n 36 35  1  0  0  0  0\n 41 36  2  0  0  0  0\n 36 37  1  0  0  0  0\n 37 38  2  0  0  0  0\n 38 39  1  0  0  0  0\n 39 40  2  0  0  0  0\n 40 41  1  0  0  0  0\n 41 42  1  0  0  0  0\n 42 43  1  0  0  0  0\n 43 44  1  0  0  0  0\n 44 45  1  0  0  0  0\n 45 46  2  0  0  0  0\n 46 47  1  0  0  0  0\n 47 48  1  0  0  0  0\n 27 48  1  0  0  0  0\n 23 49  1  0  0  0  0\n 49 50  1  0  0  0  0\n 50 51  1  0  0  0  0\n 51 52  1  0  0  0  0\n 52 53  1  0  0  0  0\n 51 54  1  0  0  0  0\n 54 55  1  0  0  0  0\n 55 56  1  0  0  0  0\n 56 57  1  0  0  0  0\nM  END",
+        "smiles": "CCCCC(CC)CNc1nc(Nc2ccc(cc2)-c3nc4cc(ccc4o3)C(C)(C)CC)nc(Nc5ccc(cc5)-c6nc7cc(ccc7o6)C(C)(C)CC)n1",
+        "formula": "C47H56N8O2",
+        "atropisomerism": "No",
+        "charge": 0,
+        "count": 1,
+        "stereochemistry": "RACEMIC",
+        "defined_stereo": 0,
+        "ez_centers": 0,
+        "molecular_weight": "765.0017",
+        "optical_activity": "( + / - )",
+        "references": [
+          "bd0386ed-e239-4157-aa1c-390548065d59",
+          "1a68b8de-ec2d-4858-a55b-b06a4a40d927"
+        ],
+        "stereo_centers": 1
+      },
+      "unii": "BU9H717REF"
+    }
+  ]
+}

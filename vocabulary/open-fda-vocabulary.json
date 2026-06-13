@@ -1,0 +1,181 @@
+{
+  "vocabulary": "openFDA API Vocabulary",
+  "description": "Key terms, field names, and domain concepts used across the openFDA REST APIs",
+  "source": "https://open.fda.gov/apis/",
+  "terms": [
+    {
+      "term": "FAERS",
+      "label": "FDA Adverse Event Reporting System",
+      "definition": "A database containing adverse event reports, medication error reports, and product quality complaints submitted to FDA for drugs and therapeutic biological products.",
+      "domain": "Drug Safety"
+    },
+    {
+      "term": "CAERS",
+      "label": "CFSAN Adverse Event Reporting System",
+      "definition": "A database supporting the FDA Center for Food Safety and Applied Nutrition (CFSAN) post-marketing safety surveillance program for adverse events related to foods, dietary supplements, and cosmetics.",
+      "domain": "Food Safety"
+    },
+    {
+      "term": "SPL",
+      "label": "Structured Product Labeling",
+      "definition": "A document markup standard for the exchange of information about a regulated product using XML and controlled vocabulary. FDA uses SPL for prescription and over-the-counter drug product labeling.",
+      "domain": "Drug Labels"
+    },
+    {
+      "term": "UNII",
+      "label": "Unique Ingredient Identifier",
+      "definition": "A non-proprietary, free, unique, unambiguous, non-semantic, alphanumeric identifier based on a substance's molecular structure and/or descriptive information.",
+      "domain": "Substances"
+    },
+    {
+      "term": "GUDID",
+      "label": "Global Unique Device Identification Database",
+      "definition": "The FDA database that serves as the authoritative source of information on device identifiers (DI portion of the UDI).",
+      "domain": "Medical Devices"
+    },
+    {
+      "term": "UDI",
+      "label": "Unique Device Identifier",
+      "definition": "A unique numeric or alphanumeric code that consists of two components: a device identifier (DI) and a production identifier (PI).",
+      "domain": "Medical Devices"
+    },
+    {
+      "term": "510k",
+      "label": "Premarket Notification 510(k)",
+      "definition": "A premarket submission made to FDA to demonstrate that the device to be marketed is at least as safe and effective as a legally marketed device not subject to PMA.",
+      "domain": "Medical Devices"
+    },
+    {
+      "term": "PMA",
+      "label": "Premarket Approval",
+      "definition": "The FDA process of scientific and regulatory review to evaluate the safety and effectiveness of Class III medical devices.",
+      "domain": "Medical Devices"
+    },
+    {
+      "term": "NDC",
+      "label": "National Drug Code",
+      "definition": "A unique 10-digit, 3-segment number that identifies the labeler, product, and trade package size of drug products.",
+      "domain": "Drug Labels"
+    },
+    {
+      "term": "MedDRA",
+      "label": "Medical Dictionary for Regulatory Activities",
+      "definition": "A medical terminology used to classify adverse event information associated with the use of biopharmaceuticals and other medical products.",
+      "domain": "Drug Safety"
+    },
+    {
+      "term": "openfda",
+      "label": "openFDA Harmonization Fields",
+      "definition": "A field within openFDA API results that contains harmonized data drawn from FDA systems (e.g., NDC, brand name, generic name, application number).",
+      "domain": "General"
+    },
+    {
+      "term": "meta",
+      "label": "Response Metadata",
+      "definition": "A top-level object in every openFDA API response containing disclaimer, terms, license, last_updated, and pagination results information.",
+      "domain": "General"
+    },
+    {
+      "term": "search",
+      "label": "Search Parameter",
+      "definition": "The query parameter used in openFDA API requests to filter results using Lucene query syntax (e.g., search=patient.drug.medicinalproduct:ASPIRIN).",
+      "domain": "API Query"
+    },
+    {
+      "term": "count",
+      "label": "Count Parameter",
+      "definition": "The query parameter used to return aggregated counts of a specific field across all records matching the search criteria.",
+      "domain": "API Query"
+    },
+    {
+      "term": "limit",
+      "label": "Limit Parameter",
+      "definition": "The query parameter to control the number of records returned per page (max 1000, default 1).",
+      "domain": "API Query"
+    },
+    {
+      "term": "skip",
+      "label": "Skip Parameter",
+      "definition": "The query parameter to skip a number of records for pagination (max 25000).",
+      "domain": "API Query"
+    },
+    {
+      "term": "safetyreportid",
+      "label": "Safety Report ID",
+      "definition": "A unique identifier for an adverse event safety report submitted to FAERS.",
+      "domain": "Drug Safety"
+    },
+    {
+      "term": "seriousness",
+      "label": "Seriousness",
+      "definition": "An indicator in FAERS reports denoting whether the adverse event was serious (e.g., resulted in death, hospitalization, or disability).",
+      "domain": "Drug Safety"
+    },
+    {
+      "term": "recall_number",
+      "label": "Recall Number",
+      "definition": "A unique identifier assigned by FDA to a specific recall action.",
+      "domain": "Recalls"
+    },
+    {
+      "term": "classification",
+      "label": "Recall Classification",
+      "definition": "The FDA's classification of a recall based on risk: Class I (most serious), Class II (moderate risk), or Class III (least serious).",
+      "domain": "Recalls"
+    },
+    {
+      "term": "voluntary_mandated",
+      "label": "Voluntary or Mandated Recall",
+      "definition": "Indicates whether a recall was initiated voluntarily by the firm or mandated by FDA.",
+      "domain": "Recalls"
+    },
+    {
+      "term": "event_type",
+      "label": "Device Event Type",
+      "definition": "Categorizes the medical device adverse event as Death, Injury, Malfunction, or Other.",
+      "domain": "Medical Devices"
+    },
+    {
+      "term": "reactionmeddrapt",
+      "label": "Reaction MedDRA Preferred Term",
+      "definition": "The MedDRA preferred term describing the adverse reaction reported in a FAERS case.",
+      "domain": "Drug Safety"
+    },
+    {
+      "term": "drugindication",
+      "label": "Drug Indication",
+      "definition": "The indication for use of the drug as reported in an adverse event report.",
+      "domain": "Drug Safety"
+    },
+    {
+      "term": "brand_name",
+      "label": "Brand Name",
+      "definition": "The trade or proprietary name of the drug product as found in the openFDA harmonization block.",
+      "domain": "Drug Labels"
+    },
+    {
+      "term": "generic_name",
+      "label": "Generic Name",
+      "definition": "The established, non-proprietary name of the drug as found in the openFDA harmonization block.",
+      "domain": "Drug Labels"
+    },
+    {
+      "term": "route",
+      "label": "Route of Administration",
+      "definition": "The path by which a drug is taken into the body (e.g., oral, intravenous, topical).",
+      "domain": "Drug Labels"
+    },
+    {
+      "term": "product_code",
+      "label": "Product Code",
+      "definition": "A three-letter code assigned by FDA that identifies the generic category of a device.",
+      "domain": "Medical Devices"
+    },
+    {
+      "term": "device_class",
+      "label": "Device Class",
+      "definition": "The regulatory class assigned to a medical device based on risk: Class I, II, or III.",
+      "domain": "Medical Devices"
+    }
+  ]
+}

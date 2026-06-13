@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-06-01",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 7068
+    }
+  },
+  "results": [
+    {
+      "third_party_flag": "N",
+      "life_sustain_support_flag": "N",
+      "gmp_exempt_flag": "N",
+      "summary_malfunction_reporting": "Eligible",
+      "product_code": "HOA",
+      "openfda": {
+        "registration_number": [
+          "1932180",
+          "8040278",
+          "9614093",
+          "3008808049",
+          "9615857",
+          "1313525"
+        ],
+        "fei_number": [
+          "1000119305",
+          "3004216008",
+          "3002802903",
+          "3002409980",
+          "3008808049",
+          "1317628"
+        ]
+      },
+      "review_panel": "OP",
+      "medical_specialty": "OP",
+      "device_name": "Compressor, Orbital",
+      "review_code": "",
+      "unclassified_reason": "",
+      "medical_specialty_description": "Ophthalmic",
+      "device_class": "1",
+      "definition": "",
+      "regulation_number": "886.4350",
+      "implant_flag": "N",
+      "submission_type_id": "4"
+    }
+  ]
+}

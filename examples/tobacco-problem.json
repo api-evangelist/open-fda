@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-02-03",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 1337
+    }
+  },
+  "results": [
+    {
+      "date_submitted": "07/27/2020",
+      "nonuser_affected": "No",
+      "reported_health_problems": [
+        "Acetonaemic vomiting"
+      ],
+      "number_tobacco_products": 1,
+      "report_id": 2087802,
+      "number_health_problems": 1,
+      "reported_product_problems": [
+        "Foreign material (something in the product that does not belong)",
+        "Taste issue"
+      ],
+      "tobacco_products": [
+        "Pipe or pipe tobacco"
+      ],
+      "number_product_problems": 2
+    }
+  ]
+}

@@ -146,5 +146,17 @@
       "url": "https://open.fda.gov/about/updates/2014_06_02_introducing_openfda/",
       "description": "The openFDA public data initiative is launched, providing REST API access to FDA regulatory datasets."
     }
-  ]
+  ],
+  "repo": "open-fda",
+  "feeds": [
+    {
+      "source": "https://github.com/FDA/openfda",
+      "feed_url": "https://github.com/FDA/openfda",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }

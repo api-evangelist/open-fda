@@ -2,7 +2,7 @@ aid: open-fda
 name: openFDA
 description: openFDA is the FDA's open data platform providing REST APIs for public access to FDA regulatory datasets. It covers drug adverse events (FAERS), drug labeling (SPL), drug recall enforcement reports, medical device 510(k) clearances, device adverse event reports, device recalls and classifications, food recall enforcement actions, food adverse events (CAERS), tobacco problem reports, tobacco research datasets, historical FDA documents, and substance data. All data is returned as JSON and is available free of charge with or without an API key.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -27,7 +27,7 @@ apis:
   - aid: open-fda:drug-adverse-events
     name: Drug Adverse Events API
     description: Access FDA Adverse Event Reporting System (FAERS) data covering adverse event reports for drugs and therapeutic biologic products from 2004 onward, updated quarterly.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/drug/event/
     baseURL: https://api.fda.gov
     tags:
@@ -40,7 +40,7 @@ apis:
   - aid: open-fda:drug-labeling
     name: Drug Labeling API
     description: Access FDA Structured Product Labeling (SPL) files for prescription and over-the-counter drug products, including indications, adverse reactions, and safety information. Updated weekly.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/drug/label/
     baseURL: https://api.fda.gov
     tags:
@@ -53,7 +53,7 @@ apis:
   - aid: open-fda:drug-recall-enforcement
     name: Drug Recall Enforcement Reports API
     description: Access drug product recall enforcement reports submitted to the FDA.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/drug/enforcement/
     baseURL: https://api.fda.gov
     tags:
@@ -65,7 +65,7 @@ apis:
   - aid: open-fda:device-510k
     name: Medical Device 510(k) Clearances API
     description: Access 510(k) premarket notification data demonstrating that devices are at least as safe and effective as legally marketed predicate devices.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/510k/
     baseURL: https://api.fda.gov
     tags:
@@ -78,7 +78,7 @@ apis:
   - aid: open-fda:device-adverse-events
     name: Medical Device Adverse Event Reports API
     description: Access reports of serious injuries, deaths, malfunctions, and other undesirable effects associated with the use of medical devices.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/event/
     baseURL: https://api.fda.gov
     tags:
@@ -90,7 +90,7 @@ apis:
   - aid: open-fda:device-classification
     name: Medical Device Classification API
     description: Access medical device names, product codes, specialty areas, and classification data.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/classification/
     baseURL: https://api.fda.gov
     tags:
@@ -102,7 +102,7 @@ apis:
   - aid: open-fda:device-recall-enforcement
     name: Medical Device Recall Enforcement Reports API
     description: Access medical device product recall enforcement report data.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/enforcement/
     baseURL: https://api.fda.gov
     tags:
@@ -115,7 +115,7 @@ apis:
   - aid: open-fda:device-pma
     name: Medical Device Premarket Approval (PMA) API
     description: Access FDA scientific and regulatory review data for Class III medical devices requiring premarket approval.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/pma/
     baseURL: https://api.fda.gov
     tags:
@@ -128,7 +128,7 @@ apis:
   - aid: open-fda:device-recalls
     name: Medical Device Recalls API
     description: Access actions taken to address problems with medical devices that violate FDA law.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/recall/
     baseURL: https://api.fda.gov
     tags:
@@ -140,7 +140,7 @@ apis:
   - aid: open-fda:device-registrations-listings
     name: Medical Device Registrations and Listings API
     description: Access establishment locations and corresponding manufactured device listings.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/registrationlisting/
     baseURL: https://api.fda.gov
     tags:
@@ -152,7 +152,7 @@ apis:
   - aid: open-fda:device-udi
     name: Unique Device Identifier (UDI) API
     description: Access Global Unique Device Identification Database (GUDID) information for medical devices.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/device/udi/
     baseURL: https://api.fda.gov
     tags:
@@ -165,7 +165,7 @@ apis:
   - aid: open-fda:food-recall-enforcement
     name: Food Recall Enforcement Reports API
     description: Access food product recall enforcement report data from the FDA.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/food/enforcement/
     baseURL: https://api.fda.gov
     tags:
@@ -178,7 +178,7 @@ apis:
   - aid: open-fda:food-adverse-events
     name: Food Adverse Event Reports API (CAERS)
     description: Access FDA CFSAN Adverse Event Reporting System (CAERS) data for food, dietary supplement, and cosmetic adverse event reports.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/food/event/
     baseURL: https://api.fda.gov
     tags:
@@ -193,7 +193,7 @@ apis:
   - aid: open-fda:tobacco-problem-reports
     name: Tobacco Problem Reports API
     description: Access reports about tobacco products that are damaged, defective, contaminated, or cause undesirable health effects.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/tobacco/problem/
     baseURL: https://api.fda.gov
     tags:
@@ -205,7 +205,7 @@ apis:
   - aid: open-fda:tobacco-research
     name: Tobacco Research Datasets API
     description: Access tobacco prevention advertising and smokefree campaign research datasets examining advertising influence on youth attitudes and public health impact.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/tobacco/
     baseURL: https://api.fda.gov
     tags:
@@ -218,7 +218,7 @@ apis:
   - aid: open-fda:other-historical-documents
     name: Historical FDA Documents API
     description: Access FDA press releases from 1913 to 2014 in searchable format.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/other/historicaldocument/
     baseURL: https://api.fda.gov
     tags:
@@ -230,7 +230,7 @@ apis:
   - aid: open-fda:other-substance-data
     name: Substance Data API
     description: Access molecular-level substance information designed for internal and external applications, including the Unique Ingredient Identifier (UNII) listing.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://open.fda.gov/apis/other/substance/
     baseURL: https://api.fda.gov
     tags:

@@ -2,16 +2,23 @@
   "repo": "open-fda",
   "feeds": [
     {
-      "source": "https://open.fda.gov/about/updates/",
-      "feed_url": "",
+      "source": "https://github.com/FDA/openfda",
+      "feed_url": "https://github.com/FDA/openfda",
+      "title": "",
       "saved": 0,
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:57:40Z",
-  "agent_pulled": "2026-06-27",
-  "post_count": 0,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04",
+  "post_count": 1,
   "posts": [
+    {
+      "title": "Orange Book Dataset Release",
+      "date": "2026-06-30",
+      "url": "https://open.fda.gov/apis/drug/orangebook/",
+      "description": "The Orange Book dataset of FDA-approved drug products with therapeutic equivalence evaluations is now available via openFDA."
+    },
     {
       "title": "Tobacco Smokefree Research Dataset Available",
       "date": "2026-03-11",

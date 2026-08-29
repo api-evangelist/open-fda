@@ -2,6 +2,19 @@ aid: open-fda
 name: openFDA
 description: openFDA is the FDA's open data platform providing REST APIs for public access to FDA regulatory datasets. It covers drug adverse events (FAERS), drug labeling (SPL), drug recall enforcement reports, medical device 510(k) clearances, device adverse event reports, device recalls and classifications, food recall enforcement actions, food adverse events (CAERS), tobacco problem reports, tobacco research datasets, historical FDA documents, and substance data. All data is returned as JSON and is available free of charge with or without an API key.
 type: Index
+deliveryModel:
+  model: saas
+  license: CC0-1.0
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: open
@@ -253,6 +266,12 @@ apis:
       - type: Documentation
         url: https://open.fda.gov/apis/other/substance/
 common:
+  - type: IssueTracker
+    url: https://github.com/FDA/openfda/issues
+  - type: SecurityPolicy
+    url: https://github.com/FDA/openfda/blob/master/SECURITY.md
+  - type: ContributionGuide
+    url: https://github.com/FDA/openfda/blob/master/CONTRIBUTING.txt
   - type: License
     name: CC0-1.0
     url: https://github.com/FDA/openfda/blob/master/LICENSE

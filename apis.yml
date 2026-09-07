@@ -266,6 +266,44 @@ apis:
       - type: Documentation
         url: https://open.fda.gov/apis/other/substance/
 common:
+  - type: AgenticAccess
+    url: agentic-access/open-fda-agentic-access.yml
+  - type: Portal
+    url: https://open.fda.gov/
+  - type: Signup
+    url: https://api.data.gov/signup/
+  - type: GettingStarted
+    url: https://open.fda.gov/apis/try-the-api/
+  - type: APIReference
+    url: https://open.fda.gov/apis/query-parameters/
+  - type: APIReference
+    url: https://open.fda.gov/apis/query-syntax/
+  - type: APIReference
+    url: https://open.fda.gov/apis/advanced-syntax/
+  - type: ErrorCodes
+    url: https://open.fda.gov/apis/errors/
+  - type: ChangeLog
+    url: https://open.fda.gov/updates/
+  - type: Forums
+    url: https://open.fda.gov/community/
+  - type: GitHubOrganization
+    url: https://github.com/FDA
+  - type: Support
+    url: https://www.fda.gov/about-fda/contact-fda
+  - type: TermsOfService
+    url: https://open.fda.gov/terms/
+  - type: PrivacyPolicy
+    url: https://www.fda.gov/about-website/website-policies
+  - type: Rules
+    url: rules/open-fda-rules.yml
+  - type: SpectralRules
+    url: rules/open-fda-rules.yml
+  - type: Vocabulary
+    url: vocabulary/open-fda-vocabulary.yml
+  - type: JSONSchema
+    url: json-schema/open-fda-search-response-schema.json
+  - type: Examples
+    url: examples/open-fda-drug-event-example.json
   - type: IssueTracker
     url: https://github.com/FDA/openfda/issues
   - type: SecurityPolicy
